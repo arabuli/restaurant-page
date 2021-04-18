@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  height: 100%;
+  background-image: url("background.jfif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#content {
+  color: white;
+}
+
+
+.navigation {
+  height: 20vh;
+  display: inline-block;
+  padding-top: 20px;
+  float: none;
+  position: absolute;
+  top: 9%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.navigation>button {
+  background-color: rgb(136, 10, 48);
+  border: 2px solid rgb(49, 3, 3);
+  overflow-x: auto;
+  font-size: 1.2rem;
+  color: #fff;
+  border-bottom: none;
+  padding: .75rem 1.5rem;
+  font-weight: 600;
+  user-select: none;
+  outline: none;
+}
+
+.navigation>button:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.navigation>button:focus {
+  border: 1px dotted rgba(0, 0, 0, 0.5);
+  background-color: rgb(43, 2, 18);
+  ;
+}
+
+.section {
+  background-color: red;
+  opacity: 0.5;
+  border: 3px solid green;
+  padding: 70px;
+  margin-top: 20%;
+}
+
+.homepage-container {
+  width: 400px;
+}
+
+.contact-container {
+  width: 400px;
+}
+
+.menu-container {
+  width: 400px;
+}
