@@ -6,9 +6,11 @@
 
 body,
 html {
+  font-family: 'Orelega One', cursive;
   height: 100%;
   width: 100%;
   display: flex;
+  text-align: center;
   justify-content: center;
 }
 
@@ -22,25 +24,21 @@ body {
 
 #content {
   color: white;
+  width: 100vw;
 }
-
 
 .navigation {
   height: 20vh;
-  display: inline-block;
-  padding-top: 20px;
-  float: none;
-  position: absolute;
-  top: 9%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  position: relative;
+  justify-content: center;
+  margin: auto;
 }
 
 .navigation>button {
   background-color: rgb(136, 10, 48);
   border: 2px solid rgb(49, 3, 3);
-  overflow-x: auto;
   font-size: 1.2rem;
+  width: 160px;
   color: #fff;
   border-bottom: none;
   padding: .75rem 1.5rem;
@@ -56,25 +54,16 @@ body {
 .navigation>button:focus {
   border: 1px dotted rgba(0, 0, 0, 0.5);
   background-color: rgb(43, 2, 18);
-  ;
 }
 
 .section {
-  background-color: red;
-  opacity: 0.5;
+  background-color: black;
+  opacity: 0.8;
+  word-wrap: break-word;
   border: 3px solid green;
   padding: 70px;
-  margin-top: 20%;
 }
 
-.homepage-container {
-  width: 400px;
-}
-
-.contact-container {
-  width: 400px;
-}
-
-.menu-container {
-  width: 400px;
+h1 {
+ margin-bottom: 20px;
 }

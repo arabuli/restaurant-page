@@ -7,7 +7,8 @@ function contact() {
 
   //Create Description
   const paragraphElement = document.createElement("p");
-  paragraphElement.textContent = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem distinctio culpa libero quo numquam, quae accusamus ducimus quidem voluptatibus dolor itaque mollitia sint! Repellendus exercitationem dolorem omnis repudiandae. Expedita, similique. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem distinctio culpa libero quo numquam, quae accusamus ducimus quidem voluptatibus dolor itaque mollitia sint! Repellendus exercitationem dolorem omnis repudiandae. Expedita, similique. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem distinctio culpa libero quo numquam, quae accusamus ducimus quidem voluptatibus dolor itaque mollitia sint! Repellendus exercitationem dolorem omnis repudiandae. Expedita, similique.";
+  paragraphElement.textContent =
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem distinctio culpa libero quo numquam, quae accusamus ducimus quidem voluptatibus dolor itaque mollitia sint! Repellendus exercitationem dolorem omnis repudiandae. Expedita, similique. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem distinctio culpa libero quo numquam, quae accusamus ducimus quidem voluptatibus dolor itaque mollitia sint! Repellendus exercitationem dolorem omnis repudiandae. Expedita, similique. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem distinctio culpa libero quo numquam, quae accusamus ducimus quidem voluptatibus dolor itaque mollitia sint! Repellendus exercitationem dolorem omnis repudiandae. Expedita, similique.";
   contactContainer.appendChild(paragraphElement);
   contactContainer.setAttribute("id", "maincontiner");
   return contactContainer;

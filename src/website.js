@@ -12,7 +12,6 @@ function createNavigation() {
   let navigationDiv = document.createElement("div");
   navigationDiv.classList.add("navigation");
 
-
   //Add Home Button
   let homepageButton = document.createElement("button");
   homepageButton.textContent = "Homepage";
@@ -47,16 +46,8 @@ function createNavigation() {
 
 function populateHome() {
   singleSection.appendChild(homePage());
-
   getConentContainer.appendChild(singleSection);
   return singleSection;
 }
 
-
-
-
-
-export {
-  createNavigation,
-  populateHome
-}
+export { createNavigation, populateHome };

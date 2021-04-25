@@ -1,4 +1,4 @@
-import {createNavigation, populateHome} from "./website";
+import { createNavigation, populateHome } from "./website";
 
 let getConentContainer = document.getElementById("content");
 
